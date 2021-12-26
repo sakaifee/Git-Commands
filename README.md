@@ -4,7 +4,7 @@ Install Git -
 
 git config --global user.name xyz
 
-git config --global user.email xyz@gmail.com
+git config --global user.email xyz@abc
 
 
 ### To check:
