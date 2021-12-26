@@ -13,11 +13,11 @@ git config --global user.email "xyz@abc"
 
 
 
-### To check config:
+### Basics:
 
-git config --global user.name
+git config --global user.name -> To check
 
-git config --global user.email
+git config --global user.email -> To check
 
 
 
