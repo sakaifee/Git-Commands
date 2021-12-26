@@ -85,5 +85,24 @@ git merge "QA" -> To merge master branch with QA branch
 git checkout -b "Dev" -> To create branch and switch it in same branch
   
 
+## Github Repository *(if you already have code and you want to put it in a new Git repository)*
+
+git remote add origin https://github.com/username/repo-name.git -> Connect local system with remote repository
+
+*or*
+
+git remote set-url origin git@github.com:username/repo-name.git -> Connect local system with remote repository
+
+git remote -v -> To check
+
+git push -u origin master -> Push to github
+
+git push -u origin "QA" -> Push to github with different branch
+
+
+## Github Repository *(if you want to clone the project from github to your local system)*
+
+git clone https://github.com/sakaifee/Git-Commands.git
+ 
  
 
