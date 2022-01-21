@@ -98,8 +98,6 @@ Step 4: git config --global user.name "xyz"
 Step 5: git config --global user.email "xyz@abc"
  
 Step 6: git remote add origin https://github.com/username/repo-name.git  *(Connect local system with remote repository)*
-*or* 
-git remote set-url origin git@github.com:username/repo-name.git  *(Connect local system with remote repository)*
 
 Step 7: git remote -v  *(To check connection)*
 
@@ -113,7 +111,7 @@ Step 11: git push -u origin master  *(Push to github)*
 
 Step 12: git status  *(To check status)*
 
-Step 13: Refresh github repository. 
+Step 13: Refresh github repository
 
 
 ## Github Repository *(if you want to clone the project from github to your local system)*
