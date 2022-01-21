@@ -91,27 +91,34 @@ Step 1: Create a new git repository on github.
 
 Step 2: Go to the project folder and open terminal or git bash
 
-Step 3: git init (*To initialize the git in the project forlder)*
+Step 3: git init  (*To initialize the git in the project forlder)*
 
-Step 4: git config --global user.name "<username>" 
+Step 4: git config --global user.name "xyz"
 
-Step 5: git config --global user.email <email>
+Step 5: git config --global user.email "xyz@abc"
  
-Step 6: git remote add origin https://github.com/username/repo-name.git -> Connect local system with remote repository
+Step 6: git remote add origin https://github.com/username/repo-name.git  *(Connect local system with remote repository)*
 *or* 
-git remote set-url origin git@github.com:username/repo-name.git -> Connect local system with remote repository
+git remote set-url origin git@github.com:username/repo-name.git  *(Connect local system with remote repository)*
 
+Step 7: git remote -v  *(To check connection)*
 
-Step 7: git remote -v -> *(To check connection)*
+Step 8: git status  *(To check status)*
 
-git push -u origin master -> Push to github
+Step 9: git add .  *(Add all file and folders in the stagging area)*
 
-git push -u origin "QA" -> Push to github with different branch
+Step 10: git commit -m "comments"  *(To commit)*
+
+Step 11: git push -u origin master  *(Push to github)*
+
+Step 12: git status  *(To check status)*
+
+Step 13: Refresh github repository. 
 
 
 ## Github Repository *(if you want to clone the project from github to your local system)*
 
-git clone https://github.com/sakaifee/Git-Commands.git
+Step 1: git clone https://github.com/sakaifee/Git-Commands.git
  
  
 
