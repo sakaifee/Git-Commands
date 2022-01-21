@@ -93,7 +93,7 @@ Step 2: Go to the project folder and open terminal or git bash
 
 Step 3: git init (*To initialize the git in the project forlder)*
 
-Step 4: git config --global user.name <username> 
+Step 4: git config --global user.name "<username>" 
 
 Step 5: git config --global user.email <email>
  
