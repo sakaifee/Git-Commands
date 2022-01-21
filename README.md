@@ -85,15 +85,24 @@ git merge "QA" -> To merge master branch with QA branch
 git checkout -b "Dev" -> To create branch and switch it in same branch
   
 
-## Github Repository *(if you already have code and you want to put it in a new Git repository)*
+## Github Repository *(if you already have code on Localhost and you want to put it in a new Git repository)*
 
-git remote add origin https://github.com/username/repo-name.git -> Connect local system with remote repository
+Step 1: Create a new git repository on github. 
 
-*or*
+Step 2: Go to the project folder and open terminal or git bash
 
+Step 3: git init (*To initialize the git in the project forlder)*
+
+Step 4: git config --global user.name <username> 
+
+Step 5: git config --global user.email <email>
+ 
+Step 6: git remote add origin https://github.com/username/repo-name.git -> Connect local system with remote repository
+*or* 
 git remote set-url origin git@github.com:username/repo-name.git -> Connect local system with remote repository
 
-git remote -v -> To check
+
+Step 7: git remote -v -> *(To check connection)*
 
 git push -u origin master -> Push to github
 
